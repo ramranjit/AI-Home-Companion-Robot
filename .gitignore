@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+last_snapshot.jpg
+alex_voice.wav
+alex_log.txt
+faces/
