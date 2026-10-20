@@ -52,7 +52,9 @@ so it stops itself if anything goes wrong, even without internet.
 - [ ] **Phase 3, elder care:** check-ins, help alerts, heartbeat monitoring
 
 ## Progress log
+
 | Date | Milestone |
+|---|---|
 | Oct 8, 2026 | Idea explored, feasibility checked and blueprint created |
 | Oct 12, 2026 | Concept and architecture registered on GitHub |
 | Oct 16, 2026 | Robot named Alex ("Alexki") by my son 🦁 |
