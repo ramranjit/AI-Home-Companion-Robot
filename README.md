@@ -59,6 +59,8 @@ so it stops itself if anything goes wrong, even without internet.
 | Oct 12, 2026 | Concept and architecture registered on GitHub |
 | Oct 16, 2026 | Robot named Alex ("Alexki") by my son 🦁 |
 | Oct 19, 2026 | Alex sees and greets the family by name, with a natural voice 🎉 |
+| Oct 19, 2026 | Alex listens and talks back by voice 🎤 |
+| Oct 20, 2026 | Ronin had his first conversation with Alex 🦁 |
 
 
 ---
