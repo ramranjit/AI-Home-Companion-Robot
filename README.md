@@ -62,6 +62,7 @@ so it stops itself if anything goes wrong, even without internet.
 | Oct 19, 2026 | Alex listens and talks back by voice 🎤 |
 | Oct 20, 2026 | Ronin had his first conversation with Alex 🦁 |
 | Oct 23, 2026 | Alex remembers the conversation 🧠 |
+| Oct 24, 2026 | Alex recognises the whole family by face 👀 |
 
 
 ---
