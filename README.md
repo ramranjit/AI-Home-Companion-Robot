@@ -64,6 +64,7 @@ so it stops itself if anything goes wrong, even without internet.
 | Oct 23, 2026 | Alex remembers the conversation 🧠 |
 | Oct 24, 2026 | Alex recognises the whole family by face 👀 |
 | Oct 25, 2026 | Alex now has long-term memory 🧠 |
+| Oct 26, 2026 | Alex sees, hears and talks in one go, and wakes up with one click 🖱️ |
 
 
 ---
