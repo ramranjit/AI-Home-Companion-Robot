@@ -1,8 +1,7 @@
-# Homebot
-A home companion robot powered by Gemini, concept stage.
-# HomeBot — A Home Companion Robot
+# AI Home Companion Robot
+An AI home companion robot, built from scratch and powered by Google Gemini. Meet Alex (the kids call him Alexki).
 
-**Status:** 💡 Concept stage · Development on hold · Concept registered October 2026
+**Status:** 🛠️ Working prototype · Sees, recognises faces, talks and remembers · Moving onto Raspberry Pi · Started October 2026
 **Builder:** Ranjit
 
 A small, friendly home robot that can see, listen, talk, and keep
@@ -11,17 +10,26 @@ Raspberry Pi as its body.
 
 ## The idea
 Most home robots are closed products you can't change.
-HomeBot is an open AI system where I control every layer:
+Alex is a custom AI system where I control every layer:
 the AI model, what it can do, its safety rules, and how it
 connects to other systems.
 
 It's built on the same principle I use in AI automation:
 **an AI agent whose tools happen to be motors.**
 
-## What it will do
-- **Companion:** talks, plays, and keeps the family company, like a pet
-- **Helper:** follows you around the home and carries small items on its tray
-- **Family friendly:** recognises family members and greets them by name
+## What Alex can do today
+- **Sees and recognises:** knows each family member by face and greets them by name
+- **Talks:** natural voice conversation, with a warm, kid-friendly personality
+- **Remembers:** keeps family facts, but only when someone asks him to
+- **Meets new people:** asks a new face their name (visitors are never saved)
+- **Safe for kids:** strict content rules, plus a diary parents can check
+- **Easy to wake:** starts with one click
+
+## What's coming next
+- **His own body:** Raspberry Pi, camera eye, speaker and mic in a robot head
+- **Live conversation:** fast, natural back-and-forth with Gemini Live
+- **Routine helper:** knows the family schedule and gives gentle reminders
+- **Helper (later):** wheels, follows you around and carries small items on a tray
 - **Elder care (future):** daily check-ins, help alerts sent to family,
   and an offline warning if the robot stops responding
 
@@ -30,24 +38,28 @@ It's built on the same principle I use in AI automation:
 ```mermaid
 flowchart LR
     G["Gemini (cloud brain)"]
-    subgraph ROBOT["HomeBot"]
+    subgraph ROBOT["Alex"]
         CAM["Camera (eyes)"]
         SPK["Speaker + mic (voice and ears)"]
         PI["Raspberry Pi (local controller)"]
+        MEM["Face recognition + memory (stay on the device)"]
         SAFE["Safety layer (sensors + stops)"]
-        BODY["Wheeled body"]
+        BODY["Wheeled body (later)"]
     end
     CAM --> PI
     SPK <--> PI
+    PI <--> MEM
     PI <-->|Wi-Fi| G
     PI --> SAFE --> BODY
 ```
 
 Gemini makes the decisions. The robot handles safety locally,
 so it stops itself if anything goes wrong, even without internet.
+Family faces and memories stay on the device, not in the cloud.
 
 ## Roadmap
-- [ ] **Phase 1, the head:** sees, listens, talks, with a personality
+- [x] **Prototype:** sees, recognises the family, talks, remembers (on a laptop)
+- [ ] **Phase 1, the head:** moves onto the Raspberry Pi, live conversation, routine helper
 - [ ] **Phase 2, the body:** wheels, follows family members, carries items
 - [ ] **Phase 3, elder care:** check-ins, help alerts, heartbeat monitoring
 
@@ -65,7 +77,7 @@ so it stops itself if anything goes wrong, even without internet.
 | Oct 24, 2026 | Alex recognises the whole family by face 👀 |
 | Oct 25, 2026 | Alex now has long-term memory 🧠 |
 | Oct 26, 2026 | Alex sees, hears and talks in one go, and wakes up with one click 🖱️ |
-
+| Oct 27, 2026 | Project renamed: AI Home Companion Robot |
 
 ---
 *Detailed technical design kept private during development.*
