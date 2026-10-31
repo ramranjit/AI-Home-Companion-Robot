@@ -78,6 +78,8 @@ Family faces and memories stay on the device, not in the cloud.
 | Oct 25, 2026 | Alex now has long-term memory 🧠 |
 | Oct 26, 2026 | Alex sees, hears and talks in one go, and wakes up with one click 🖱️ |
 | Oct 27, 2026 | Project renamed: AI Home Companion Robot |
+| Oct 28, 2026 | Hatching started: Raspberry Pi 5 parts arrived and passed every test — Alex took his first photo through his own camera eye
+| Oct 30, 2026 | Alex has a head: camera eye, mic nose and speaker mouth, all working from inside the head
 
 ---
 *Detailed technical design kept private during development.*
